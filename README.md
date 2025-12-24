@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-# Time-Aware-RAG-Research-Assistant
-Time-aware Retrieval-Augmented Generation system that reduces outdated and hallucinated research answers using temporal filtering, FAISS-based retrieval, and arXiv fallback.
-=======
-<<<<<<< HEAD
-# Time-Aware-RAG-Research-Assistant
-Time-aware Retrieval-Augmented Generation system that reduces outdated and hallucinated research answers using temporal filtering, FAISS-based retrieval, and arXiv fallback.
-=======
 # Time-Aware RAG Research Assistant
 
 A professional-grade time-aware RAG (Retrieval-Augmented Generation) research assistant chatbot that helps users explore academic research without outdated or hallucinated answers.
