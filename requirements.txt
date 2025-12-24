@@ -1,0 +1,37 @@
+# LangChain (modern modular ecosystem)
+langchain>=0.2.0
+langchain-core>=1.1.0,<2.0
+langchain-groq==1.1.1
+langchain-community>=0.4.0
+
+# Groq client
+groq>=0.30.0
+
+# Vector store and embeddings
+# Note: faiss-cpu is often easiest via conda-forge on macOS (see notes below)
+faiss-cpu==1.7.4
+
+# Embedding models
+sentence-transformers>=2.2.0,<3.0
+transformers>=4.41.0,<5.0
+
+# Torch (IMPORTANT: install using PyTorch official steps for macOS/ARM)
+torch==2.2.0
+
+# UI
+gradio>=4.26.0
+
+# Document processing
+PyPDF2>=3.0.1
+pdfplumber>=0.10.3
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+arxiv>=1.4.8
+
+# Utilities
+python-dotenv>=1.0.0
+numpy==1.26.4
+pandas>=2.2.0
+
+# Logging
+loguru>=0.7.2

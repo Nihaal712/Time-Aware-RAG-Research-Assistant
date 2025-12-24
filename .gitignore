@@ -1,0 +1,88 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.so
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+env/
+ENV/
+.venv/
+RA_venv/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.envrc
+.env.local
+.env.production
+
+# =========================
+# Packaging / Build
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+MANIFEST
+
+# =========================
+# Logs & Cache
+# =========================
+*.log
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.cache/
+
+# =========================
+# Jupyter / IPython
+# =========================
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# =========================
+# OS
+# =========================
+.DS_Store
+._*
+.Trashes
+Thumbs.db
+
+# =========================
+# IDEs / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Project-specific (IMPORTANT)
+# =========================
+faiss_index/
+chat_history.json
+uploads/
+temp/
+
+# PDFs / research papers
+*.pdf
+
+# Scratch / experiments
+x.py
+
+# Tool-specific
+.kiro/
+
+# Cursor
+.cursorignore
+.cursorindexingignore
